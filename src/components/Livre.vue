@@ -54,6 +54,7 @@
             <td>
               <button @click="supprimerLivre(index)" class="btn btn-danger btn-sm">Supprimer</button>
               <button @click="modifierLivre(index)" class="btn btn-danger btn-sm">Modifier</button>
+              <button @click="detailLivre(index)" class="btn btn-danger btn-sm">Detail</button>
             </td>
           </tr>
         </tbody>
