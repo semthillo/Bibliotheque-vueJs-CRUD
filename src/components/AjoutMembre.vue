@@ -1,5 +1,5 @@
 <template>
-  <button type="submit" class="btn btn-primary m-4" @click="ajout = true">Ajouter Membre</button>
+  <button type="submit" class="btn btn-primary mt-4 ml-0" @click="ajout = true">Ajouter Membre</button>
   <div class="container" v-if="ajout">
     <h2 v-if="!isEditing">Ajouter un Nouveau Membre</h2>
     <h2 v-else>Modifier Membre</h2>
@@ -67,3 +67,4 @@ const editMembre = (membre) => {
 
 defineExpose({ editMembre });
 </script>
+

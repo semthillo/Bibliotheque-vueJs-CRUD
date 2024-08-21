@@ -72,3 +72,10 @@ const resetForm = () => {
 
 defineExpose({ edit });
 </script>
+
+<style scoped>
+
+h3 {
+  color:  red;
+}
+</style>

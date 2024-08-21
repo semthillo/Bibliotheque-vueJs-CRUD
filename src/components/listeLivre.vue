@@ -46,3 +46,10 @@ const edit = (index) => {
   emit("onEdit", index);
 };
 </script>
+
+<style scoped>
+h3 {
+  
+  margin-left: 90px;
+}
+</style>
