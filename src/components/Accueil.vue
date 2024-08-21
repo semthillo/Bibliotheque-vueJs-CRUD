@@ -43,6 +43,7 @@
     object-fit: cover; 
   }
 .slogan{
+  display: none;
     position: absolute;
     background:rgba(41, 63, 44, 0.589);
     width: 1000px;
